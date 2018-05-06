@@ -14,7 +14,7 @@ function frameIt() {
 
 function pressIt() {
   $('form').on('submit', function(key) {
-    alert("key.which");
+    alert("${key.which}");
   });
 }
 
