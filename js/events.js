@@ -13,7 +13,7 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('form').on('submit', function(key) {
+  $('form').on('keydown', function(key) {
     alert(`${key.which}`);
   });
 }
