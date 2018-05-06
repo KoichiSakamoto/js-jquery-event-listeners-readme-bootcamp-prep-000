@@ -13,7 +13,7 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('form').on('keyPress', function(key) {
+  $('form').on('submit', function(key) {
     alert("hello");
   });
 }
