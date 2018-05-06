@@ -12,6 +12,11 @@ function frameIt() {
   });
 }
 
+function pressIt() {
+  $('form').on('keyPress', function(key) {
+    alert("${key.which}")
+  });
+}
 
 $(document).ready(function(){
 
