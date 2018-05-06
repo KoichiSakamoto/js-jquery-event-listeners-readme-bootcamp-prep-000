@@ -14,7 +14,9 @@ function frameIt() {
 
 function pressIt() {
   $('form').on('keydown', function(key) {
-    alert(`${key.which}`);
+    if (key.which == 71) {
+    alert();
+  };
   });
 }
 
